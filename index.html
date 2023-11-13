@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title> *Converter* </title>
+    </head>
+    <body>
+        <div id="inputContainer">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="text" id="input-value" required/>
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div id="displayContainer">
+            <div class="resultContainer">
+                <h2 class="topic">Length (Meter/Feet)</h2>
+                <h3 class="result" id="length-result">Input the number!</h3>
+            </div>
+            <div class="resultContainer">
+                <h2 class="topic">Volumn (Liters/Gallons)</h2>
+                <h3 class="result" id="volumn-result">Input the number!</br></h3>
+            </div>
+            <div class="resultContainer">
+                <h2 class="topic">Mass (Kilograms/Pounds)</h2>
+                <h3 class="result" id="mass-result">Input the number!</br></h3>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

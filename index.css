@@ -1,0 +1,81 @@
+/* 
+color used:
+- https://colorhunt.co/palette/edf1d69dc08b60996640513b
+#EDF1D6, #9DC08B, #609966, #40513B
+- https://colorhunt.co/palette/fcf5edf4bf96ce5a671f1717 
+#FCF5ED, #F4BF96, #CE5A67, #1F1717
+*/
+
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+/* section: input */
+#inputContainer {
+    color: #EDF1D6;
+    background: #CE5A67;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-bottom: 10px dashed #A4BE7B;
+}
+
+/* section: input-text */
+#input-value {
+    text-align: center;
+    color: #609966;
+    background: #EDF1D6;
+    margin: 10px auto;
+    border: 10px outset #1F1717;
+    border-radius: 20px;
+    width: 150px;
+    height: 100px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+/* section: convert-button */
+#convert-btn {
+    color: #EDF1D6;
+    background: #A4BE7B;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* section: result */
+#displayContainer {
+    color: #EDF1D6;
+    background: #F4BF96;
+    display: flex;
+    flex-direction: column;
+    margin-top: px;
+    border-bottom: 10px dashed #A4BE7B;
+    height: auto;
+}
+
+.resultContainer {
+    background: #40513B;
+    margin: 20px;
+    padding: 10px 20px;
+    border: 5px ridge #609966;
+    border-radius: 10px;
+}
+
+.topic {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.result {
+    font-size: 22px;
+    font-weight: lighter;
+}
